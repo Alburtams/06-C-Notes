@@ -595,7 +595,7 @@ Point3d Point3d::magnitude(Point3d *const this)
 //如果member function是const，则变成
 Point3d Point3d::magnitude(const Point3d *const this)
 ```
- 
+
 2. 将每一个”对nonstatic data member的存取操作“改为经由this指针来存取：
 
 ```c++
